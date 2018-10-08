@@ -1,5 +1,5 @@
 
-const baseUrl = 'http://api.openweathermap.org/data/2.5/weather?';
+const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?';
 // let cityId = "5809844";
 let apiKey = '35ed712f5f8848d1811811c457093d67';
 let units = 'imperial';
