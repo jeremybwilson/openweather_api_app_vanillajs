@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Affordable and professional web design">
+        <meta name="keywords" content="web design, affordable web design, professional web design, professional web development">
+        <meta name="author" content="Jeremy Wilson">
+        <title>Open Weather API Demo - Vanilla JavaScript version</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="searchContainer">
+                <!-- <form action="" method="POST"> -->
+                    <input type="text" class="searchControl" id="searchInput" placeholder="City Name or ZIP">
+                    <button class="searchControl" id="searchBtn">Search</button>
+                <!-- </form> -->
+            </div>
+            <div id="weatherContainer">
+                <div id="weatherDescription">
+                    <h1 id="cityHeader"></h1>
+                    <div id="weatherMain">
+                        <div id="temperature"></div>
+                        <div id="weatherDescriptionHeader"></div>
+                        <div><img id="documentIconImg"/></div>
+                    </div>
+                    <hr>
+                    <div id="windSpeed" class="bottom-details"></div>
+                    <div id="humidity" class="bottom-details"></div>
+                </div>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
